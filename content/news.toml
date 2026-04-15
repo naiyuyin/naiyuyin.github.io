@@ -1,17 +1,17 @@
 [[news]]
 date = "2026-01"
-content = "Our paper *CGU-Bayes* has been accepted to **CVPR 2026**!"
+content = "Our paper \"CGU-Bayes: Causal Graph Uncertainty-Guided Bayesian Inference for Domain Generalization\" has been accepted to CVPR 2026!"
+
+[[news]]
+date = "2025-11"
+content = "Invited to organize and host the minisymposium \"Foundation Models: From Theory to Practice\" at SIAM-NNP Annual Meeting!"
 
 [[news]]
 date = "2025-10"
-content = "Paper accepted to **NeurIPS 2025** Machine Learning and the Physical Sciences Workshop."
+content = "Paper \"Fake It Till You Make It: Multi-Physics Synthesis Breaks the Data Barrier in Chemical Language Models\" is accepted to NeurIPS 2025 Machine Learning and the Physical Sciences Workshop."
 
 [[news]]
 date = "2025-07"
-content = "Paper on Efficient Nonlinear DAG Learning accepted to **ICPR 2025** with an **Oral** presentation. Nominated for Best Industrial Paper Award!"
-
-[[news]]
-date = "2025-06"
 content = "Invited talk at the 18th U.S. National Congress on Computational Mechanics (USNCCM18)."
 
 [[news]]
@@ -20,12 +20,16 @@ content = "Started as a Postdoctoral Research Associate at Lehigh University."
 
 [[news]]
 date = "2024-07"
-content = "Paper on Causal Representation Learning accepted to **ECCV 2024**."
+content = "Paper \"Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization\" is accepted to ECCV 2024."
+
+[[news]]
+date = "2025-06"
+content = "Paper \"Efficient Nonlinear DAG Learning Under Projection Framework\" is accepted to ICPR 2024 with an Oral presentation. Nominated for Best Industrial Paper Award!"
 
 [[news]]
 date = "2024-05"
-content = "Started research internship at **IBM Research**, Yorktown Heights."
+content = "Started research internship at IBM Research, Yorktown Heights."
 
 [[news]]
 date = "2023-12"
-content = "Paper on Causal Discovery accepted to **AAAI 2024**."
+content = "Paper \"Effective Causal Discovery under Identifiable Heteroscedastic Noise Model\" accepted to **AAAI 2024**."

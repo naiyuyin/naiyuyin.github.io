@@ -10,12 +10,12 @@ content = "Organized and hosted the minisymposium \"Foundation Models: From Theo
 
 [[items]]
 title = "Conference Reviewer"
-subtitle = "NeurIPS, ICML, ICLR, CVPR, ICCV, AAAI, UAI, AISTATS"
+subtitle = "NeurIPS, ICML, ICLR, CVPR, ICCV, AAAI, UAI, AISTATS, ECCV"
 date = "2021 – Present"
 content = "Served as a reviewer for top-tier machine learning and computer vision conferences."
 
 [[items]]
 title = "Journal Reviewer"
-subtitle = "Journal of Machine Learning Research, Communications Engineering"
+subtitle = "Journal of Machine Learning Research, Communications Engineering, IEEE Transactions on Information Theory"
 date = "2021 – Present"
 content = "Reviewed papers for leading journals in machine learning and engineering."
