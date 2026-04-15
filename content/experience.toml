@@ -1,0 +1,31 @@
+type = "card"
+title = "Experience"
+description = "Research and professional experience."
+
+[[items]]
+title = "Postdoctoral Research Associate"
+subtitle = "Lehigh University, Department of Mathematics"
+date = "Feb 2025 – Present"
+content = "Developing attention-mechanism-based foundation models for causal graph learning and Poly4mer, a chemical language model framework for polymer property prediction and inverse design."
+tags = ["Foundation Models", "Causal Discovery", "Polymer Design"]
+
+[[items]]
+title = "Research Scientist Intern"
+subtitle = "IBM Research, Yorktown Heights"
+date = "May 2024 – Aug 2024"
+content = "Developed a scalable circuit learning method for mechanistic interpretability of LLMs. Leveraged sparse linear regression to uncover relationships among sparse autoencoder features, producing human-interpretable circuits."
+tags = ["Mechanistic Interpretability", "LLMs", "Sparse Autoencoders"]
+
+[[items]]
+title = "Research Assistant (Ph.D. Student)"
+subtitle = "RPI – IBM AI Horizons Collaboration"
+date = "Jan 2023 – Dec 2024"
+content = "Developed unified frameworks combining causal discovery and representation learning for computer vision. Proposed Bayesian approaches for domain generalization and causal Markov blanket feature selection."
+tags = ["Causal Representation Learning", "Domain Generalization", "Computer Vision"]
+
+[[items]]
+title = "Research Assistant (Ph.D. Student)"
+subtitle = "Rensselaer Polytechnic Institute"
+date = "May 2019 – Dec 2024"
+content = "Investigated causal discovery under heteroscedastic noise and addressed computational inefficiency in DAG structure learning through novel projection frameworks."
+tags = ["Causal Discovery", "DAG Learning", "Optimization"]

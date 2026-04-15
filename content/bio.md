@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a Postdoctoral Research Associate in the Department of Mathematics at [Lehigh University](https://www.lehigh.edu/).
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I received my Ph.D. in Electrical, Computer, and Systems Engineering and an M.S. in Applied Mathematics from [Rensselaer Polytechnic Institute](https://www.rpi.edu/) in 2024, and an M.S. in Electrical and Computer Engineering from [Duke University](https://www.duke.edu/) in 2019. I obtained my B.E. in Electronic Information Engineering from [Beihang University](https://www.buaa.edu.cn/) in 2017.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My research focuses on foundation models and language models for scientific applications (including causal discovery and polymer design), mechanistic interpretability of large language models, causal representation learning for counterfactual image generation and domain generalization, and causal discovery and inference.

@@ -1,7 +1,31 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-01"
+content = "Our paper *CGU-Bayes* has been accepted to **CVPR 2026**!"
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2025-10"
+content = "Paper accepted to **NeurIPS 2025** Machine Learning and the Physical Sciences Workshop."
+
+[[news]]
+date = "2025-07"
+content = "Paper on Efficient Nonlinear DAG Learning accepted to **ICPR 2025** with an **Oral** presentation. Nominated for Best Industrial Paper Award!"
+
+[[news]]
+date = "2025-06"
+content = "Invited talk at the 18th U.S. National Congress on Computational Mechanics (USNCCM18)."
+
+[[news]]
+date = "2025-02"
+content = "Started as a Postdoctoral Research Associate at Lehigh University."
+
+[[news]]
+date = "2024-07"
+content = "Paper on Causal Representation Learning accepted to **ECCV 2024**."
+
+[[news]]
+date = "2024-05"
+content = "Started research internship at **IBM Research**, Yorktown Heights."
+
+[[news]]
+date = "2023-12"
+content = "Paper on Causal Discovery accepted to **AAAI 2024**."

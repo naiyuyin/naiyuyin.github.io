@@ -3,25 +3,13 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Best Industrial Paper Award Nomination"
+subtitle = "International Conference on Pattern Recognition (ICPR)"
 date = "2025"
-content = "Description of the award."
+content = "Paper on Efficient Nonlinear DAG Learning Under Projection Framework was nominated for the Best Industrial Paper Award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Travel Grant"
+subtitle = "SIAM-NNP (Society for Industrial and Applied Mathematics)"
+date = "2025"
+content = "Received a travel grant from the SIAM New York–New Jersey–Pennsylvania Section for the 2025 Annual Meeting."

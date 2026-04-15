@@ -3,7 +3,19 @@ title = "Services"
 description = "Professional services and community involvement."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Conference Organizer"
+subtitle = "SIAM-NNP Annual Meeting"
+date = "2025"
+content = "Organized and hosted the minisymposium \"Foundation Models: From Theory to Practice\" at the SIAM New York–New Jersey–Pennsylvania Section Annual Meeting."
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "NeurIPS, ICML, ICLR, CVPR, ICCV, AAAI, UAI, AISTATS"
+date = "2021 – Present"
+content = "Served as a reviewer for top-tier machine learning and computer vision conferences."
+
+[[items]]
+title = "Journal Reviewer"
+subtitle = "Journal of Machine Learning Research, Communications Engineering"
+date = "2021 – Present"
+content = "Reviewed papers for leading journals in machine learning and engineering."
