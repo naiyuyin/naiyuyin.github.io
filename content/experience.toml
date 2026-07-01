@@ -18,8 +18,7 @@ title = "Research Scientist Intern"
 subtitle = "IBM–Rensselaer Future of Computing Research Collaboration"
 date = "May 2024 – Aug 2024"
 content = """
-- Designed CircuitLasso, a scalable circuit learning method for mechanistic interpretability of LLMs.
-- Used sparse linear regression to efficiently uncover relationships among high-dimensional sparse-autoencoder features, revealing how interpretable semantic features propagate through the model and improving downstream performance (ICML 2026 MechInterp Workshop).
+- Designed CircuitLasso, a scalable circuit learning method for mechanistic interpretability of LLMs. Used sparse linear regression to efficiently uncover relationships among high-dimensional sparse-autoencoder features, revealing how interpretable semantic features propagate through the model and improving downstream performance (ICML 2026 MechInterp Workshop).
 """
 tags = ["Mechanistic Interpretability", "LLMs", "Sparse Autoencoders"]
 
