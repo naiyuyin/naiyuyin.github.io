@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-06"
+content = "Two papers, \"Scalable Circuit Learning for Interpreting Large Language Models\" and \"Rational Sparse Autoencoder,\" are accepted to the Mechanistic Interpretability Workshop at ICML 2026!"
+
+[[news]]
 date = "2026-01"
 content = "Our paper \"CGU-Bayes: Causal Graph Uncertainty-Guided Bayesian Inference for Domain Generalization\" has been accepted to CVPR 2026!"
 
@@ -23,7 +27,7 @@ date = "2024-07"
 content = "Paper \"Integrating Markov Blanket Discovery into Causal Representation Learning for Domain Generalization\" is accepted to ECCV 2024."
 
 [[news]]
-date = "2025-06"
+date = "2024-06"
 content = "Paper \"Efficient Nonlinear DAG Learning Under Projection Framework\" is accepted to ICPR 2024 with an Oral presentation. Nominated for Best Industrial Paper Award!"
 
 [[news]]

@@ -3,11 +3,12 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Foundation Models for Scientific Applications",
+  "Foundation Models for Causal Graph Learning",
+  "Chemical Language Models for Polymers",
   "Mechanistic Interpretability of LLMs",
-  "Causal Representation Learning",
+  "Causal Representation Learning for Domain Generalization and Counterfactual Image Generation",
   "Causal Discovery and Inference",
-  "Probabilistic Graphical Models"
+  "Bayesian Inference, Bayesian Neural Networks & Uncertainty Quantification"
 ]
 
 [[sections]]

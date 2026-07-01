@@ -6,26 +6,40 @@ description = "Research and professional experience."
 title = "Postdoctoral Research Associate"
 subtitle = "Lehigh University, Department of Mathematics"
 date = "Feb 2025 – Present"
-content = "Developing attention-mechanism-based foundation models for causal graph learning and Poly4mer, a chemical language model framework for polymer property prediction and inverse design."
-tags = ["Foundation Models", "Causal Discovery", "Polymer Design"]
+content = """
+- Building an attention-based foundation model that maps observational data to causal graphs, enabling efficient zero-shot causal graph inference (paper under review).
+- Developed the Rational Sparse Autoencoder (RSAE), replacing fixed SAE encoder activations with a trainable rational function to improve reconstruction and downstream fidelity for LLM interpretability (ICML 2026 MechInterp Workshop).
+- Developed Poly4mer, a physics-augmented chemical language model for polymer property prediction and targeted discovery (NeurIPS 2025 ML4PS Workshop).
+"""
+tags = ["Foundation Models", "Causal Discovery", "Mechanistic Interpretability", "Polymer Design"]
 
 [[items]]
 title = "Research Scientist Intern"
-subtitle = "IBM Research, Yorktown Heights"
+subtitle = "IBM–Rensselaer Future of Computing Research Collaboration"
 date = "May 2024 – Aug 2024"
-content = "Developed a scalable circuit learning method for mechanistic interpretability of LLMs. Leveraged sparse linear regression to uncover relationships among sparse autoencoder features, producing human-interpretable circuits."
+content = """
+- Designed CircuitLasso, a scalable circuit learning method for mechanistic interpretability of LLMs.
+- Used sparse linear regression to efficiently uncover relationships among high-dimensional sparse-autoencoder features, revealing how interpretable semantic features propagate through the model and improving downstream performance (ICML 2026 MechInterp Workshop).
+"""
 tags = ["Mechanistic Interpretability", "LLMs", "Sparse Autoencoders"]
 
 [[items]]
-title = "Research Assistant (Ph.D. Student)"
-subtitle = "RPI – IBM AI Horizons Collaboration"
-date = "Jan 2023 – Dec 2024"
-content = "Developed unified frameworks combining causal discovery and representation learning for computer vision. Proposed Bayesian approaches for domain generalization and causal Markov blanket feature selection."
-tags = ["Causal Representation Learning", "Domain Generalization", "Computer Vision"]
+title = "Research Scientist Intern"
+subtitle = "IBM–Rensselaer AI Horizons Research Collaboration"
+date = "Summers 2020, 2021, 2022"
+content = """
+- Proposed an uncertainty-guided Bayesian inference framework with multi-level uncertainty quantification to improve domain generalization in computer vision (CVPR 2026).
+- Developed invariant causal Markov blanket feature learning for out-of-distribution generalization (ECCV 2024).
+- Proposed an acyclicity-constraint-free causal discovery approach over an equivalence space of causal graphs (ICPR 2024 Oral; ICML 2021).
+"""
+tags = ["Causal Representation Learning", "Domain Generalization", "Bayesian Inference"]
 
 [[items]]
-title = "Research Assistant (Ph.D. Student)"
+title = "Graduate Research Assistant"
 subtitle = "Rensselaer Polytechnic Institute"
 date = "May 2019 – Dec 2024"
-content = "Investigated causal discovery under heteroscedastic noise and addressed computational inefficiency in DAG structure learning through novel projection frameworks."
-tags = ["Causal Discovery", "DAG Learning", "Optimization"]
+content = """
+- Built a unified framework combining causal discovery and representation learning for controllable and counterfactual image generation (paper under review).
+- Investigated causal discovery under heteroscedastic noise, deriving implementable identifiability conditions and a two-phase iterative algorithm (AAAI 2024).
+"""
+tags = ["Causal Discovery", "Representation Learning", "Image Generation"]
