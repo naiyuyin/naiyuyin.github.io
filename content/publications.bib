@@ -70,9 +70,12 @@
   booktitle = {Machine Learning and the Physical Sciences Workshop at NeurIPS},
   author = {Naiyu Yin and Ning Liu and Brian Y. Lattimer and Jim Lua and Yue Yu},
   year = {2025},
-  abstract = {We develop Poly4mer, a multi-physics synthesis-based chemical language model framework for polymer property prediction and inverse design. We pre-train models for polymer generation and property prediction, and design a system for latent-space exploration and polymer reconstruction.},
-  description = {A multi-physics synthesis-based chemical language model framework for polymer property prediction and inverse design.},
-  keywords = {Chemical Language Models, Polymer Design, Foundation Models, Multi-Physics}
+  abstract = {Chemical language models (CLMs) promise transformative capabilities in polymer property prediction and design, yet their potential is hindered by the scarcity of experimental data. We present Poly4mer, a novel multi-physics synthesis based CLM framework that units neural polymer representation learning with theoretical foundations in physics. Poly4mer integrates a comprehensive group contribution method for hypothetical polymer generation with physics-based simulations that faithfully emulate experimental protocols, fabricating a rich dataset of synthetic polymer structures and structure–property relationships to establish strong priors for CLM training. This synthetic data enables training of two critical components: an encoder-decoder architecture that captures polymer semantics, and a two-phase property prediction strategy comprising supervised pretraining on synthetic data for physically consistent alignment followed by fine-tuning on experimental measurements to enhance predictive accuracy. We then architect an autoencoding system that couples predictive capability with latent decoding, enabling inverse design of polymers optimized for downstream applications through latent space exploration and structure reconstruction. By faking data with physics before reality catches up, we demonstrate that multi-physics synthesis can break the data barrier in CLMs, establishing a new paradigm for physics-grounded neural polymer discovery.},
+  description = {A physics-augmented chemical language model for polymer property prediction and targeted discovery.},
+  keywords = {Chemical Language Models, Polymer Design, Foundation Models for Polymers, Physics-guided},
+  preview = {poly4mer.png},                        % thumbnail (pipeline figure)
+  code    = {https://github.com/fishmoon1234/poly4mer}, % Code (GitHub) button
+  poster  = {/paper/poly4mer-poster.pdf},         % Poster button
 }
 
 @inproceedings{yin2024icpr,
