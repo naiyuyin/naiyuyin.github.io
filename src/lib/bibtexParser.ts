@@ -84,13 +84,17 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       doi: tags.doi,
       url: tags.url,
       code: tags.code,
+      pdfUrl: tags.pdf || tags.pdfurl,
+      paper: tags.paper || tags.pdf || tags.url,
+      poster: tags.poster,
+      youtube: tags.youtube || tags.video,
       abstract: cleanBibTeXString(tags.abstract),
       description: cleanBibTeXString(tags.description || tags.note),
       selected,
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'paper', 'poster', 'youtube', 'video', 'pdf', 'pdfurl']),
     };
 
     // Clean up undefined fields

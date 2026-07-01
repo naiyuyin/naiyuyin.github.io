@@ -28,6 +28,9 @@ export interface Publication {
   url?: string;
   code?: string;
   pdfUrl?: string;
+  paper?: string;
+  poster?: string;
+  youtube?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;

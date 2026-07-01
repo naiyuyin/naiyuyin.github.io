@@ -9,7 +9,11 @@ import {
     CalendarIcon,
     BookOpenIcon,
     ClipboardDocumentIcon,
-    DocumentTextIcon
+    DocumentTextIcon,
+    LinkIcon,
+    PlayCircleIcon,
+    PresentationChartBarIcon,
+    CodeBracketIcon
 } from '@heroicons/react/24/outline';
 import { Publication } from '@/types/publication';
 import { PublicationPageConfig } from '@/types/page';
@@ -240,6 +244,17 @@ export default function PublicationsList({ config, publications, embedded = fals
                                     )}
 
                                     <div className="flex flex-wrap gap-2 mt-auto">
+                                        {pub.paper && (
+                                            <a
+                                                href={pub.paper}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <LinkIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.paper}
+                                            </a>
+                                        )}
                                         {pub.doi && (
                                             <a
                                                 href={`https://doi.org/${pub.doi}`}
@@ -257,7 +272,30 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 rel="noopener noreferrer"
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
+                                                <CodeBracketIcon className="h-3 w-3 mr-1.5" />
                                                 {messages.publications.code}
+                                            </a>
+                                        )}
+                                        {pub.youtube && (
+                                            <a
+                                                href={pub.youtube}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <PlayCircleIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.video}
+                                            </a>
+                                        )}
+                                        {pub.poster && (
+                                            <a
+                                                href={pub.poster}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <PresentationChartBarIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.poster}
                                             </a>
                                         )}
                                         {pub.abstract && (
