@@ -44,6 +44,7 @@ export interface LocaleMessages {
     paper: string;
     poster: string;
     video: string;
+    slides: string;
   };
   footer: {
     lastUpdated: string;
@@ -97,6 +98,7 @@ const en: LocaleMessages = {
     paper: 'Paper',
     poster: 'Poster',
     video: 'Video',
+    slides: 'Slides',
   },
   footer: {
     lastUpdated: 'Last updated',
@@ -150,6 +152,7 @@ const zh: LocaleMessages = {
     paper: '论文',
     poster: '海报',
     video: '视频',
+    slides: '幻灯片',
   },
   footer: {
     lastUpdated: '最近更新',

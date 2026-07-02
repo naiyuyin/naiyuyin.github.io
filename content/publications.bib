@@ -61,10 +61,11 @@
   booktitle = {European Conference on Computer Vision (ECCV)},
   author = {Naiyu Yin and Hanjing Wang and Yue Yu and Tian Gao and Amit Dhurandhar and Qiang Ji},
   year = {2024},
-  abstract = {We develop a novel approach to selecting invariant causal Markov blanket features for enhancing prediction accuracy under distribution shifts, combining causal discovery and representation learning for computer vision tasks.},
+  abstract = {Identifying low-dimensional, semantic latent causal representations for high-dimensional data has become a dynamic field in computer vision and machine learning. Causal domain generalization methods aim to identify latent causal variables that generate input data and build invariant causal mechanisms for prediction tasks, thereby improving out-of-distribution (OOD) prediction performance. However, there is no consensus on the best approach for selecting causal variables for prediction. Existing methods typically choose causal or anti-causal variables, excluding other invariant, discriminative features. In this paper, we propose using Markov Blanket features due to their property of being the minimal set that possesses the maximum mutual information with the target. To achieve this, we establish a Causal Markov Blanket Representation Learning (CMBRL) framework, which allows for Markov Blanket discovery in the latent space. We then construct an invariant prediction mechanism using the identified Markov Blanket features, making it suitable for predictions across domains. Compared to state-of-the-art domain generalization methods, our approach exhibits robustness and adaptability under distribution shifts.},
   description = {A unified framework combining causal discovery and representation learning for domain generalization via Markov blanket features.},
   keywords = {Causal Representation Learning, Domain Generalization, Markov Blanket, Computer Vision},
-  preview = {CircuitLasso.png},
+  preview = {CMBRL.png},
+  paper = {https://link.springer.com/chapter/10.1007/978-3-031-72684-2_16},
 }
 
 @inproceedings{yin2025neurips_ws,
@@ -82,14 +83,17 @@
 }
 
 @inproceedings{yin2024icpr,
-  selected={true},
+  % selected={true},
   title = {Efficient Nonlinear DAG Learning Under Projection Framework},
   booktitle = {International Conference on Pattern Recognition (ICPR)},
   author = {Naiyu Yin and Yue Yu and Tian Gao and Qiang Ji},
   year = {2024},
-  abstract = {We address computational inefficiency in solving constrained optimization problems for causal discovery. We theoretically prove the equivalence between the set of causal graphs and the set of weighted gradients of graph potential functions, enabling efficient causal graph learning by searching the equivalence space without explicit acyclicity constraints.},
+  abstract = {Directed Acyclic Graphs (DAGs) are foundational in machine learning, causal inference, and probabilistic modeling. Recovering the underlying DAG structure from observational data is crucial in these areas. The DAG learning can be approached as a constrained optimization problem with a continuous acyclicity constraint, often solved iteratively through sub-problem optimization. A recent breakthrough has shown that the set of DAGs can be represented as the weighted gradients of graph potential functions. Hence, one may search for a DAG in the equivalent space, whereby the acyclicity constraint is guaranteed to be satisfied. However, the original work, DAG-NoCurl, is limited to (generalized) linear structural equation models (SEMs) where explicit weighted adjacency matrices are defined. Herein, we theoretically derive a nonlinear projection formulation and propose an efficient two-step nonlinear DAG learning method, which we coined DAG-NCMLP. The proposed approach first obtains a non-acyclic graph and then projects it to the equivalent space of DAGs to obtain the acyclic graph. Experimental studies on benchmark datasets demonstrate that our proposed method provides similar accuracy, if not better, compared to state-of-the-art nonparametric DAG learning methods with hard-constrained optimization, while substantially reducing the computational time.},
   description = {Efficient causal graph learning via projection framework, eliminating explicit acyclicity constraints. Oral presentation, nominated for Best Industrial Paper Award.},
-  keywords = {Causal Discovery, DAG Learning, Optimization, Projection Framework}
+  keywords = {Causal Discovery, DAG Learning, Optimization, Projection Framework},
+  preview = {DAGNoCurl.png},                        % thumbnail (pipeline figure)
+  paper  = {https://link.springer.com/chapter/10.1007/978-3-031-78172-8_29},         % Paper button
+  slides = {/papers/ICPR_Slides.pdf},          % Slides button (put the file in public/papers/)
 }
 
 @inproceedings{yin2023neurips_ws,
@@ -107,9 +111,10 @@
   booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
   author = {Zijun Cui and Naiyu Yin and Yuru Wang and Qiang Ji},
   year = {2022},
-  abstract = {We develop Bayesian approaches for robust constraint-based causal discovery when data is insufficient, improving reliability of causal graph estimation.},
+  abstract = {Causal discovery is to learn cause-effect relationships among variables given observational data and is important for many applications. Existing causal discovery methods assume data sufficiency, which may not be the case in many real world datasets. As a result, many existing causal discovery methods can fail under limited data. In this work, we propose Bayesian-augmented frequentist independence tests to improve the performance of constraint-based causal discovery methods under insufficient data: 1) We firstly introduce a Bayesian method to estimate mutual information (MI), based on which we propose a robust MI based independence test; 2) Secondly, we consider the Bayesian estimation of hypothesis likelihood and incorporate it into a well-defined statistical test, resulting in a robust statistical testing based independence test. We apply proposed independence tests to constraint-based causal discovery methods and evaluate the performance on benchmark datasets with insufficient samples. Experiments show significant performance improvement in terms of both accuracy and efficiency over SOTA methods.},
   description = {Bayesian methods for robust causal discovery under limited data settings.},
-  keywords = {Causal Discovery, Bayesian Methods, Constraint-Based Learning}
+  keywords = {Causal Discovery, Bayesian Methods, Constraint-Based Learning},
+  paper  = {https://arxiv.org/abs/2206.08448},
 }
 
 @inproceedings{yu2021icml,
@@ -117,7 +122,9 @@
   booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
   author = {Yue Yu and Tian Gao and Naiyu Yin and Qiang Ji},
   year = {2021},
-  abstract = {We propose an efficient DAG structure learning approach by characterizing the DAG constraint through the curl-free property of weighted gradients of graph potential functions.},
+  abstract = {Recently directed acyclic graph (DAG) structure learning is formulated as a constrained continuous optimization problem with continuous acyclicity constraints and was solved iteratively through subproblem optimization. To further improve efficiency, we propose a novel learning framework to model and learn the weighted adjacency matrices in the DAG space directly. Specifically, we first show that the set of weighted adjacency matrices of DAGs are equivalent to the set of weighted gradients of graph potential functions, and one may perform structure learning by searching in this equivalent set of DAGs. To instantiate this idea, we propose a new algorithm, DAG-NoCurl, which solves the optimization problem efficiently with a two-step procedure: 1) first we find an initial cyclic solution to the optimization problem, and 2) then we employ the Hodge decomposition of graphs and learn an acyclic graph by projecting the cyclic graph to the gradient of a potential function. Experimental studies on benchmark datasets demonstrate that our method provides comparable accuracy but better efficiency than baseline DAG structure learning methods on both linear and generalized structural equation models, often by more than one order of magnitude.},
   description = {An efficient DAG structure learning method using curl-free characterization of acyclicity.},
-  keywords = {DAG Learning, Causal Discovery, Structure Learning, Optimization}
+  keywords = {DAG Learning, Causal Discovery, Structure Learning, Optimization},
+  code    = {https://github.com/fishmoon1234/DAG-NoCurl}, % Code (GitHub) button
+  paper  = {https://arxiv.org/abs/2106.07197},
 }

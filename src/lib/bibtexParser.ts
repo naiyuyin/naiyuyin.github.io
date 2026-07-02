@@ -88,13 +88,14 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       paper: tags.paper || tags.pdf || tags.url,
       poster: tags.poster,
       youtube: tags.youtube || tags.video,
+      slides: tags.slides || tags.slide,
       abstract: cleanBibTeXString(tags.abstract),
       description: cleanBibTeXString(tags.description || tags.note),
       selected,
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'paper', 'poster', 'youtube', 'video', 'pdf', 'pdfurl']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'paper', 'poster', 'youtube', 'video', 'pdf', 'pdfurl', 'slides', 'slide']),
     };
 
     // Clean up undefined fields

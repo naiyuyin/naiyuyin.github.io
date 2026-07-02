@@ -31,6 +31,7 @@ export interface Publication {
   paper?: string;
   poster?: string;
   youtube?: string;
+  slides?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;
