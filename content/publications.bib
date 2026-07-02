@@ -48,9 +48,11 @@
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
   author = {Naiyu Yin and Tian Gao and Yue Yu and Qiang Ji},
   year = {2024},
-  abstract = {We investigate causal discovery under heteroscedastic noise in structural equation models (SEMs). We introduce relaxed and implementable sufficient conditions proving identifiability for a general class of SEMs. We propose a novel causal discovery formulation and a two-phase iterative algorithm to handle varying noise variance across variables and observations.},
-  description = {Novel causal discovery method handling heteroscedastic noise with proven identifiability conditions.},
-  keywords = {Causal Discovery, Heteroscedastic Noise, Structural Equation Models, Identifiability}
+  abstract = {Capturing the underlying structural causal relations represented by Directed Acyclic Graphs (DAGs) has been a fundamental task in various AI disciplines. Causal DAG learning via the continuous optimization framework has recently achieved promising performance in terms of both accuracy and efficiency. However, most methods make strong assumptions of homoscedastic noise, i.e., exogenous noises have equal variances across variables, observations, or even both. The noises in real data usually violate both assumptions due to the biases introduced by different data collection processes. To address the issue of heteroscedastic noise, we introduce relaxed and implementable sufficient conditions, proving the identifiability of a general class of SEM subject to these conditions. Based on the identifiable general SEM, we propose a novel formulation for DAG learning that accounts for the variation in noise variance across variables and observations. We then propose an effective two-phase iterative DAG learning algorithm to address the increasing optimization difficulties and to learn a causal DAG from data with heteroscedastic variable noise under varying variance. We show significant empirical gains of the proposed approaches over state-of-the-art methods on both synthetic data and real data.},
+  description = {Novel iterative causal graph learning method handling heteroscedastic noise with proven identifiability conditions.},
+  keywords = {Causal Discovery, Heteroscedastic Noise, Structural Equation Models, Identifiability},
+  code    = {https://github.com/naiyuyin/ICDH}, % Code (GitHub) button
+  paper = {https://arxiv.org/abs/2312.12844},
 }
 
 @inproceedings{yin2024eccv,
@@ -61,7 +63,8 @@
   year = {2024},
   abstract = {We develop a novel approach to selecting invariant causal Markov blanket features for enhancing prediction accuracy under distribution shifts, combining causal discovery and representation learning for computer vision tasks.},
   description = {A unified framework combining causal discovery and representation learning for domain generalization via Markov blanket features.},
-  keywords = {Causal Representation Learning, Domain Generalization, Markov Blanket, Computer Vision}
+  keywords = {Causal Representation Learning, Domain Generalization, Markov Blanket, Computer Vision},
+  preview = {CircuitLasso.png},
 }
 
 @inproceedings{yin2025neurips_ws,
