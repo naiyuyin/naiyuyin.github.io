@@ -19,6 +19,10 @@ date = "2025-07"
 content = "Invited talk at the 18th U.S. National Congress on Computational Mechanics (USNCCM18)."
 
 [[news]]
+date = "2025-06"
+content = "Our paper \"Learning Causal Graphs at Scale: A Foundation Model Approach\" is now available on arXiv!"
+
+[[news]]
 date = "2025-02"
 content = "Started as a Postdoctoral Research Associate at Lehigh University."
 

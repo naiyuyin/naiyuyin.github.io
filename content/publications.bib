@@ -42,6 +42,20 @@
   poster = {/papers/rsae-poster.pdf},
 }
 
+@article{yin2025adag,
+  selected={true},
+  title = {Learning Causal Graphs at Scale: A Foundation Model Approach},
+  journal = {arXiv preprint},
+  author = {Naiyu Yin and Tian Gao and Yue Yu},
+  year = {2025},
+  month = {June},
+  abstract = {Due to its human-interpretability and invariance properties, Directed Acyclic Graph (DAG) has been a foundational tool across various areas of AI research, leading to significant advancements. However, DAG learning remains highly challenging, due to its super-exponential growth in computational cost and identifiability issues, particularly in small-sample regimes. To address these two challenges, in this work we leverage the recent success of linear transformers and develop a foundation model approach for discovering multiple order-consistent DAGs across tasks. In particular, we propose Attention-DAG (ADAG), a novel attention-mechanism-based architecture for learning multiple linear Structural Equation Models (SEMs). ADAG learns the mapping from observed data to both graph structure and parameters via a nonlinear attention-based kernel, enabling efficient multi-task estimation of the underlying linear SEMs. By formulating the learning process across multiple tasks as a continuous optimization problem, the pre-trained ADAG model captures the common structural properties as a shared low-dimensional prior, thereby reducing the ill-posedness of downstream DAG learning tasks in small-sample regimes. We evaluate our proposed approach on benchmark synthetic datasets and find that ADAG achieves substantial improvements in both DAG learning accuracy and zero-shot inference efficiency. To the best of our knowledge, this is the first practical approach for pre-training a foundation model specifically designed for DAG learning, representing a step toward more efficient and generalizable down-stream applications in causal discovery.},
+  description = {A foundation model for causal discovery that uses an attention-based architecture (Attention-DAG) to learn multiple linear SEMs, enabling efficient zero-shot DAG inference with improved accuracy in small-sample regimes.},
+  keywords = {Foundation Models, Causal Discovery, DAG Learning, Attention Mechanism},
+  preview = {ADAG.png},
+  paper = {https://arxiv.org/abs/2506.18285},
+}
+
 @inproceedings{yin2024aaai,
   selected={true},
   title = {Effective Causal Discovery under Identifiable Heteroscedastic Noise Model},

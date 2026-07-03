@@ -1,11 +1,5 @@
-I am currently a Postdoctoral Research Associate in the Department of Mathematics at [Lehigh University](https://www.lehigh.edu/).
-
-I received my Ph.D. in Electrical, Computer, and Systems Engineering and an M.S. in Applied Mathematics from [Rensselaer Polytechnic Institute](https://www.rpi.edu/) in 2024, and an M.S. in Electrical and Computer Engineering from [Duke University](https://www.duke.edu/) in 2019. 
-
-My research focuses on:
-- Foundation models for causal graph learning.
-- Chemical language models for polymers.
-- Mechanistic interpretability of large language models (circuit learning and sparse autoencoders).
-- Causal representation learning for domain generalization and counterfactual image generation.
-- Causal discovery and inference
-- Bayesian inference, Bayesian neural networks, and uncertainty quantification.
+I am a machine learning researcher working at the intersection of causality, Bayesian inference, and the interpretability of large language models. Currently a Postdoctoral Research Associate in the Department of Mathematics at Lehigh University, I build methods that make AI systems more interpretable, robust, and trustworthy.
+My research spans several connected threads: causal discovery and inference, causal representation learning for domain generalization and counterfactual image generation, mechanistic interpretability of large language models, and Bayesian inference with uncertainty quantification. More recently, I have been developing foundation models and language models for scientific applications, including causal graph learning and polymer design.
+I completed my Ph.D. in Electrical, Computer, and Systems Engineering and an M.S. in Applied Mathematics at Rensselaer Polytechnic Institute, following an M.S. in Electrical and Computer Engineering from Duke University. During my doctoral studies, I collaborated closely with IBM Research across multiple summers, translating research ideas into methods for LLM interpretability, causal discovery, and robust computer vision.
+My work has been published at venues including CVPR, AAAI, ECCV, ICPR (Oral, Best Industrial Paper nomination), ICML, IJCAI, and NeurIPS, along with workshops on mechanistic interpretability and machine learning for the physical sciences. I also serve as a reviewer for leading conferences and journals in machine learning, computer vision, and statistics.
+I am always glad to connect with others working on causal machine learning, interpretability, and foundation models for science. Feel free to reach out.
