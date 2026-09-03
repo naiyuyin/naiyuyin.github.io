@@ -1,6 +1,10 @@
 [[news]]
+date = "2026-09"
+content = "Our paper \"Scalable Circuit Learning for Interpreting Large Language Models\" is accepted to the EMNLP 2026 main conference!"
+
+[[news]]
 date = "2026-06"
-content = "Two papers, \"Scalable Circuit Learning for Interpreting Large Language Models\" and \"Rational Sparse Autoencoder,\" are accepted to the Mechanistic Interpretability Workshop at ICML 2026!"
+content = "Our paper \"Rational Sparse Autoencoder\" is accepted to the Mechanistic Interpretability Workshop at ICML 2026!"
 
 [[news]]
 date = "2026-01"
